@@ -1,0 +1,523 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "90ac5510-943f-4570-bbc9-9c6fe2abb490")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 58.42 153.035)
+		(size 38.1 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2bddab95-1c59-4465-85e9-ad9abaadec11")
+		(property "Sheetname" "SerialPorts"
+			(at 58.42 152.3234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "serialports.kicad_sch"
+			(at 58.42 205.6896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SER1_RI" input
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37c04b76-e713-45c7-bf11-66d1d9f7a3fa")
+		)
+		(pin "SER1_TXCLK" input
+			(at 58.42 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f73fdb7b-cf55-476e-89ce-ede7b09205bd")
+		)
+		(pin "SER1_RTS" input
+			(at 58.42 161.925 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0772af06-d846-4447-af43-4fdc6b935d1b")
+		)
+		(pin "SER1_RXCLK" input
+			(at 96.52 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fc7068e1-2c39-4243-8192-411ac9d25c07")
+		)
+		(pin "SER1_TXD" input
+			(at 58.42 163.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd32509a-64ad-4d00-894b-cb015fe41b0b")
+		)
+		(pin "SER1_CTS" input
+			(at 96.52 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d2fb27ec-544b-4f42-b84c-980f9f08ded9")
+		)
+		(pin "SER1_DSR" input
+			(at 96.52 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e08a6986-f04e-4fd8-9924-27a0cea07679")
+		)
+		(pin "SER1_RXD" input
+			(at 96.52 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e21fc17f-cd64-48d4-a1e6-8fc4d5a80276")
+		)
+		(pin "SER4_RXD" input
+			(at 96.52 200.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "54436598-4ac5-4275-8dca-a93ed47e24f3")
+		)
+		(pin "SER4_TXD" input
+			(at 58.42 196.215 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e67f4d83-2781-407c-a180-39ab6ff5c3e9")
+		)
+		(pin "SER4_RTS" input
+			(at 58.42 194.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0eae2ce-f8f3-4940-b904-dad08f6f0328")
+		)
+		(pin "SER2_RXD" input
+			(at 96.52 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f6f5ab3-271b-441f-a985-38515a86ff9c")
+		)
+		(pin "SER2_TXD" input
+			(at 58.42 174.625 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "99e8efc2-30f0-41c7-9820-4d9987883d8c")
+		)
+		(pin "SER2_RTS" input
+			(at 58.42 172.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9be0bcfb-2a5d-461c-a6af-24610fa6f2b3")
+		)
+		(pin "SER2_TXCLK" input
+			(at 58.42 170.815 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "56c7be05-14d9-4cd5-ab27-85027e4bf759")
+		)
+		(pin "SER2_RI" input
+			(at 96.52 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73055653-616a-46d7-b1d3-7eec9b7c6321")
+		)
+		(pin "SER2_CTS" input
+			(at 96.52 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a9be29e-d1a2-47c3-9523-3def1a53c9ea")
+		)
+		(pin "SER2_RXCLK" input
+			(at 96.52 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1ecd1400-d13d-45c0-9617-b9fb74dfbcdb")
+		)
+		(pin "SER2_DSR" input
+			(at 96.52 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eb5e4c67-0f05-4d08-9b8e-d3a8c0cb2f6c")
+		)
+		(pin "SER4_TXCLK" input
+			(at 58.42 192.405 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f5d9067-813b-44e9-9c00-2692c1e72876")
+		)
+		(pin "SER4_RXCLK" input
+			(at 96.52 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "799c0b8c-9cb8-4c5b-afeb-478e4bdaa946")
+		)
+		(pin "SER4_DSR" input
+			(at 96.52 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37238d92-d098-4285-a7d5-5a7ffe5389ee")
+		)
+		(pin "SER4_CTS" input
+			(at 96.52 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "feed2227-ee76-40fd-9df8-84b83ac5965e")
+		)
+		(pin "SER4_RI" input
+			(at 96.52 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d9c84f07-d8dc-4690-9491-7058466118af")
+		)
+		(pin "SER3_CTS" input
+			(at 96.52 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "471de614-c287-4529-b9ca-9a1ba1ca822d")
+		)
+		(pin "SER3_RXD" input
+			(at 96.52 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e7d9e0b-347f-44e0-b120-195d143d47d6")
+		)
+		(pin "SER3_DSR" input
+			(at 96.52 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a05ef607-2a85-405f-8602-17fbf8ff6f43")
+		)
+		(pin "SER3_RXCLK" input
+			(at 96.52 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a9e9ccdb-9e63-4d8c-8202-0f8ae5ba5936")
+		)
+		(pin "SER3_RI" input
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "89c91799-ff7c-4d36-af95-753de7af0703")
+		)
+		(pin "SER3_TXCLK" input
+			(at 58.42 181.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f55c786b-a515-47af-a8f9-2187ba67d28b")
+		)
+		(pin "SER3_TXD" input
+			(at 58.42 185.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2e2490c5-ebb2-4eb1-9040-b0db1c0be18c")
+		)
+		(pin "SER3_RTS" input
+			(at 58.42 183.515 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2e440520-e816-47fb-a2f6-d14efb351e3b")
+		)
+		(instances
+			(project "IBM3705VHDL"
+				(path "/90ac5510-943f-4570-bbc9-9c6fe2abb490"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 284.48 26.67)
+		(size 112.395 88.265)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ffcb658-1380-4eca-bc33-309fefb12dc4")
+		(property "Sheetname" "FPGA"
+			(at 284.48 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA.kicad_sch"
+			(at 284.48 115.5196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IBM3705VHDL"
+				(path "/90ac5510-943f-4570-bbc9-9c6fe2abb490"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 27.305)
+		(size 113.03 88.9)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8b3746c2-1699-4fc5-bd9e-7e36f0d294cd")
+		(property "Sheetname" "Lampdriver"
+			(at 163.83 26.5934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lampdriver.kicad_sch"
+			(at 163.83 116.7896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IBM3705VHDL"
+				(path "/90ac5510-943f-4570-bbc9-9c6fe2abb490"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.195 136.525)
+		(size 113.03 83.82)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0ee17f6-4627-4f0a-9ac3-a3e0e125113e")
+		(property "Sheetname" "Buttons"
+			(at 163.195 135.8134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 163.195 220.9296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IBM3705VHDL"
+				(path "/90ac5510-943f-4570-bbc9-9c6fe2abb490"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 28.575 27.305)
+		(size 111.125 89.535)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b527cb63-90ee-441d-ba7e-0af4553a993b")
+		(property "Sheetname" "PSU"
+			(at 28.575 26.5934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 28.575 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IBM3705VHDL"
+				(path "/90ac5510-943f-4570-bbc9-9c6fe2abb490"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
